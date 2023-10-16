@@ -79,13 +79,14 @@ import matplotlib.pyplot as plt
 max_distance = 100  # Distância máxima da Terra (em anos-luz)
 source_vertex = 'Terra'  # Vértice de origem
 
-# Execute o código para criar o grafo e calcular a árvore geradora mínima.
-G, min_spanning_tree, total_cost = criar_grafo_estrelas(max_distance, source_vertex)
+#para Algoritmo de Prim  informe Destino.
+# Solicitar o vértice de destino desejado
+destination_vertex = 'Leo'
 
-# Plotar o grafo e a árvore geradora mínima.
-plotar_grafo_com_subgrafo(G, source_vertex, min_spanning_tree, max_distance)
+...
 
-..
+
+```
 
 # Exemplo de Grafos 
 
