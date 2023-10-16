@@ -85,18 +85,17 @@ G, min_spanning_tree, total_cost = criar_grafo_estrelas(max_distance, source_ver
 # Plotar o grafo e a árvore geradora mínima.
 plotar_grafo_com_subgrafo(G, source_vertex, min_spanning_tree, max_distance)
 
-...
+..
 
 # Exemplo de Grafos 
 
 ## grafo 01
-![Grafo 1](./assert/grafo.png)
 
+![Grafo 1](./assert/grafo1.png)
+  
 ## grafo 02
-![Grafo 2](./assert/grafo1.png)
+![Grafo 2](./assert/grafo2.png)
 
 ## grafo 03
-![Grafo 3](./assert/grafo2.png)
-
-## grafo 04
 ![Grafo 3](./assert/grafo3.png)
+
